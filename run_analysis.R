@@ -28,7 +28,7 @@ colnames(dt_x_test) <- dt_features$V2
 dt_x_train <- read.table(x_train, stringsAsFactors= FALSE,colClasses=c("numeric"))
 colnames(dt_x_train) <- dt_features$V2
 
-##Load Ercise Type
+##Load exercise Type
 dt_y_test <- read.table(y_test, stringsAsFactors= FALSE)
 colnames(dt_y_test) <- "exerciseKey"
 dt_y_train <- read.table(y_train, stringsAsFactors= FALSE)
